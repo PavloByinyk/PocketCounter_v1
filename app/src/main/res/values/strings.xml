@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PocketCounter</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="log_hint_pas">Password</string>
+    <string name="log_hint_log">Login</string>
+    <string name="log_hint_email">Email</string>
+    <string name="registration_btn">Registration</string>
+    <string name="log_toast">Set all fields</string>
+    <string name="fragment_add_charges_name_dict">Charges name</string>
+    <string name="et_hint_facd_sum">Charges sum</string>
+    <string name="log_btn">Login</string>
+
+    <string name="menu_item_search">Search</string>
+    <string name="menu_item_delete">delete</string>
+
+     <string name="charges_dictionary">Charges Dictionary</string>
+    <string name="charges">Your charges</string>
+    <string name="add_charges">Add Charges</string>
+
+    <string name="login_checkBox">Remember me</string>
+    <string name="login_forgot_your_password"><u>Forgot your password?</u>.</string>
+    <string name="login_sign_up_now"><u>Sign up now</u></string>
+
+    <string name="nav_view_name"><u> Greating , %1$s!</u></string>
+
+    <string name="set_all_fields">Set all fields</string>
+    <string name="some_problems_on_server">Some problems on server</string>
+
+    <string name="registration_ok">You have been successfully registered</string>
+    <string name="registration_fail">Some problems with registry</string>
+    <string name="login_fail">Check the correctness of the data</string>
+
+</resources>

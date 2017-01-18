@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp

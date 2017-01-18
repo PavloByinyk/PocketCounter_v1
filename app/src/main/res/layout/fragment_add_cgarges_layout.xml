@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fragment_add_charges_name_dict"
+        android:id="@+id/et_fac_name"
+        android:backgroundTintMode="multiply"
+        android:spinnerMode="dropdown"
+        android:layout_above="@+id/et_fac_sum"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint_facd_sum"
+        android:id="@+id/et_fac_sum"
+        android:inputType="numberDecimal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColorHint="@color/my_black"
+        android:textSize="@dimen/fab_margin"
+        android:alpha="0.5"
+        android:padding="@dimen/margins_padding_login"
+        android:layout_margin="@dimen/margins_padding_login"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="@dimen/my_elevation"
+        android:maxLength="6"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="set some description"
+        android:id="@+id/et_description"
+        android:layout_below="@+id/et_fac_sum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@color/my_black"
+        android:textSize="@dimen/fab_margin"
+        android:alpha="0.5"
+        android:padding="@dimen/margins_padding_login"
+        android:layout_margin="@dimen/margins_padding_login"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="@dimen/my_elevation"/>
+</RelativeLayout>

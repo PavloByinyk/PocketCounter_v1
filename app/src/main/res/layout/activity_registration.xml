@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_my_background_splash">
+<LinearLayout
+    android:id="@+id/registration_linear_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/login_margin"
+    android:layout_marginRight="@dimen/login_margin"
+    android:layout_centerVertical="true">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmailRegistr"
+        android:hint="@string/log_hint_email"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="@dimen/fab_margin"
+        android:alpha="0.5"
+        android:padding="@dimen/margins_padding_login"
+        android:layout_margin="@dimen/margins_padding_login"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="50dp"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etLoginRegistr"
+        android:hint="@string/log_hint_log"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="@dimen/fab_margin"
+        android:alpha="0.5"
+        android:padding="@dimen/margins_padding_login"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/margins_padding_login"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/etPasswordRegistr"
+        android:hint="@string/log_hint_pas"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="@dimen/fab_margin"
+        android:alpha="0.5"
+        android:padding="@dimen/margins_padding_login"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="@dimen/margins_padding_login"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_btn"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_registration"
+        android:background="@drawable/ic_login_button"
+        android:layout_above="@+id/tv_sign_up"
+        android:layout_alignLeft="@+id/login_linear_layout"
+        android:layout_alignStart="@+id/login_linear_layout"
+        android:layout_alignRight="@+id/tv_sign_up"
+        android:layout_alignEnd="@+id/tv_sign_up" />
+</LinearLayout>
+</RelativeLayout>

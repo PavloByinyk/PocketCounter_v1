@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    card_view:cardCornerRadius="@dimen/margins_padding_login"
+    card_view:cardBackgroundColor="#80d0d0d0"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:paddingLeft="@dimen/nav_header_vertical_spacing"
+        android:paddingBottom="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/fcd_item_ll">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="maybe yes,maybe no"
+            android:id="@+id/fcd_item"
+            android:maxLines="2"
+            android:scrollbars="vertical"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/imageButton_dictionary"
+            android:layout_toEndOf="@+id/imageButton_dictionary"
+            android:padding="@dimen/margins_padding_login"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_alignBottom="@+id/fcd_item"
+            android:layout_toLeftOf="@+id/imageButton_dictionary"
+            android:layout_toStartOf="@+id/imageButton_dictionary"></View>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more_vert_black_24dp"
+            android:id="@+id/imageButton_dictionary"
+            android:background="@null"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/fcd_item"
+            android:layout_alignTop="@+id/fcd_item"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
